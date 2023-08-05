@@ -1,3 +1,28 @@
 body{
     background: #BDBDBD;
 }
+
+.jumbotron-bg {
+    background-image: url('/website/assets/img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.jumbotron-content {
+    background-color: white; /* Add white background color */
+    text-align: center; /* Center align text */
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.fotoHeading {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
