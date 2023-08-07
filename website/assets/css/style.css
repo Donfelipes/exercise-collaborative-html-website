@@ -23,6 +23,40 @@ body{
 
 .fotoHeading {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
 }
+
+.fotoHeading2 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+
+.formcontainer {
+    border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 0 auto;
+            width: 850px;
+            background-color: whitesmoke;
+            height: 300px;
+}
+
+#texxt {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.btn-right {
+    text-align: right;
+}
+
+
+
+
+
