@@ -3,30 +3,49 @@ body {
   padding: 0px 0px 0px 0px;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 0px;
-}
-
-.jumbotron-bg {
-  background-image: url("/website/assets/img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  min-width: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-}
-
-.jumbotron-content {
-  background-color: white; /* Add white background color */
-  text-align: center; /* Center align text */
-  font-size: 100px;
+.titulo h4 {
+  font-size: 70px;
   font-weight: bold;
+  background-color: white;
 }
+
+.jumbotron {
+  background-image: url('/website/assets/img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Ajusta la altura como desees */
+  color: black; /* Cambia el color del texto si es necesario */
+}
+
+.jumbotron .container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%; /* Ocupar todo el espacio horizontal */
+  max-width: 100%; /* Evitar que el contenedor se haga más grande que la ventana */
+}
+
+.jumbotron h1.display-4 {
+  font-size: 70px; /* Ajusta el tamaño del título */
+}
+
+.jumbotron p.lead {
+  font-size: 1.5rem; /* Ajusta el tamaño del texto de descripción */
+}
+
+.jumbotron .container:last-child {
+  background-color: white;
+  margin-bottom: 0; /* Evita el margen inferior en el último bloque */
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}	
 
 .fotoHeading {
   border-radius: 50%;
